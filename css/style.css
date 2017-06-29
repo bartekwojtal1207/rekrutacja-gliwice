@@ -1,0 +1,66 @@
+body {
+  font-family: 'Lato', sans-serif; }
+
+section {
+  margin-top: 2em; }
+
+.left_side {
+  background-color: #0a2b3f; }
+  .left_side .logo img {
+    margin: auto;
+    padding-top: 2em; }
+  .left_side .contact {
+    color: white;
+    margin-top: 3em;
+    padding-bottom: 5em; }
+    .left_side .contact p {
+      font-size: 1.4em;
+      padding-bottom: .5em; }
+    .left_side .contact p.tel_numb {
+      font-weight: bold;
+      font-size: 1.7em;
+      cursor: pointer; }
+
+.right_side .main_form {
+  margin-top: 6em;
+  margin-left: 2em;
+  width: 51%; }
+  .right_side .main_form h3 {
+    font-size: 2em;
+    margin-bottom: 1.5em; }
+  .right_side .main_form .form-group {
+    margin-bottom: 1.5em; }
+    .right_side .main_form .form-group input[type="number"]::-webkit-outer-spin-button,
+    .right_side .main_form .form-group input[type="number"]::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0; }
+    .right_side .main_form .form-group input[type="number"] {
+      -moz-appearance: textfield; }
+  .right_side .main_form .checkbox {
+    margin-top: 2.5em;
+    margin-left: .7em; }
+    .right_side .main_form .checkbox input {
+      -ms-transform: scale(2);
+      /* IE */
+      -moz-transform: scale(2);
+      /* FF */
+      -webkit-transform: scale(2);
+      /* Safari and Chrome */
+      -o-transform: scale(2);
+      /* Opera */
+      padding: 10px; }
+    .right_side .main_form .checkbox label {
+      font-size: .7em; }
+  .right_side .main_form button {
+    float: right;
+    width: 8em;
+    margin-top: 1em;
+    font-weight: bold;
+    background-color: #ed1651;
+    color: white;
+    font-size: 1.3em; }
+
+.right_side .success {
+  font-size: 1.5em;
+  margin-left: 1.5em;
+  color: lightskyblue; }
